@@ -9,7 +9,7 @@ function generateNumberToString(number) {
         const wordList = [
             "", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"
         ];
-        let numOrigin = parseInt(number, 10);
+        let numOrigin = parseInt(number, 10)
         let num = number.toString().split('')
 
 
